@@ -17,3 +17,8 @@ git clone https://github.com/lavafuego/herramientas.git
 cd herramientas
 chmod +x user_fuerzabruta.sh
 ./user_fuerzabruta.sh -u root -w diccionario.txt
+
+Recuerda que para ejecutar el script debes darle permisos de ejecución con:
+```bash
+chmod +x user_fuerzabruta.sh
+```
