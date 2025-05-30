@@ -14,5 +14,5 @@ Descarga el script:
 
 ```bash
 chmod +x user_fuerzabruta.sh
-./user_fuerzabruta.sh -u root -w diccionario.txt
+./user_fuerzabruta.sh -u <user> -w <diccionario>
 ```
