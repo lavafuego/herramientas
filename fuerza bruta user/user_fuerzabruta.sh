@@ -1,3 +1,5 @@
+#script de Lavafuego en bash para fuerzabruta
+#de user usando diccionario
 #!/bin/bash
 
 USER=""
