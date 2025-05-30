@@ -10,10 +10,9 @@ Este script intenta hacer login con el usuario especificado y una lista de contr
 
 ### Uso
 
-Clona el repositorio o descarga directamente el script:
+Descarga el script:
 
 ```bash
-git clone https://github.com/lavafuego/herramientas.git
-cd herramientas
 chmod +x user_fuerzabruta.sh
 ./user_fuerzabruta.sh -u root -w diccionario.txt
+```
