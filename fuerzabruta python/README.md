@@ -1,8 +1,8 @@
-# Herramientas - user_fuerzabruta.sh
+# Herramientas - user_fuerza_bruta.py
 
 Este repositorio contiene un script para realizar ataques de fuerza bruta al usuario especificado.
 
-## Script: `user_fuerzabruta.sh`
+## Script: `user_fuerza_bruta.py`
 
 ### Descripción
 
@@ -13,6 +13,6 @@ Este script intenta hacer login con el usuario especificado y una lista de contr
 Descarga el script:
 
 ```bash
-chmod +x user_fuerzabruta.sh
-./user_fuerzabruta.sh -u root -w diccionario.txt
+chmod +x user_fuerza_bruta.py
+python user_fuerza_bruta.py -u <user> -w <diccionario> -t 10  
 ```
