@@ -12,7 +12,7 @@ get_process_list() {
         grep -v "$SCRIPT_NAME" |
         grep -v "^COMMAND" |
        #añadir procesos a quitar
-       # grep -v "/proc" |
+        grep -v "kworker" |
        # grep -v "/etc" |
         sort
 }
